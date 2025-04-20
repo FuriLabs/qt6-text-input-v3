@@ -2,7 +2,8 @@ Source: qt6-text-input-v3
 Section: libs
 Maintainer: Erik Inkinen <erik.inkinen@erikinkinen.fi>
 Priority: optional
-Build-Depends: pkg-kde-tools,
+Build-Depends: debhelper-compat (= 13),
+               pkg-kde-tools,
                cmake,
                qt6-base-dev,
                qt6-base-private-dev,
@@ -10,7 +11,7 @@ Build-Depends: pkg-kde-tools,
                qt6-wayland-private-dev,
                qt6-wayland,
                pkg-config,
-Standards-Version: 4.5.1
+Standards-Version: 4.7.2
 
 Package: qt6-text-input-v3
 Architecture: any
