@@ -1,6 +1,6 @@
 Source: qt6-text-input-v3
 Section: libs
-Maintainer: Erik Inkinen <erik.inkinen@erikinkinen.fi>
+Maintainer: Bardia Moshiri <bardia@furilabs.com>
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
                pkg-kde-tools,
